@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="js">
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <header class="header" data-custom="hogehoge">
+            <p class="header-logo">Logo</p>
+            <ul class="header-menu">
+                <li class="header-menuItem">menu01</li>
+                <li class="header-menuItem">menu02</li>
+                <li class="header-menuItem">menu03</li>
+            </ul>
+        </header>
+        <main class="main" id="js-hoge">
+            <p>text</p>
+        </main>
+        <footer class="footer">
+            <p>Footer</p>
+        </footer>
+
+        <!-- 発火用のボタン -->
+        <button type="button" name="button" id="maskButton">BUTTON</button>
+        <style>
+            #maskButton {
+                background-color: #000;
+                border-radius: 50%;
+                box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+                width: 50px;
+                height: 50px;
+                border: none;
+                padding: 0;
+                outline: none;
+                cursor: pointer;
+                appearance: none;
+                color: #fff;
+                font-size: 10px;
+                font-weight: bold;
+                text-align: center;
+                position: fixed;
+                left: 100px;
+                top: 100px;
+                z-index: 1111111111111111111;
+            }
+        </style>
+    </body>
+    <script src="main.js"></script>
+</html>
